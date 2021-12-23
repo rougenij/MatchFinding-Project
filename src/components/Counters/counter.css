@@ -1,0 +1,16 @@
+.counter {
+  display: flex;
+  flex-direction: row;
+}
+
+.red {
+  color: red;
+  display: flex;
+  flex-direction: row;
+}
+
+.green {
+  color: green;
+  display: flex;
+  flex-direction: row;
+}

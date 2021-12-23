@@ -1,8 +1,9 @@
 import React from "react";
+import "./counter.css";
 
 function Counter(props) {
   return (
-    <span className={this.props.givenClassName}>{this.props.counter}</span>
+    <span className={`counter  ${props.givenClassName}`}>{props.value}</span>
   );
 }
 

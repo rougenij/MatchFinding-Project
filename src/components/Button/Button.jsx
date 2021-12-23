@@ -1,11 +1,12 @@
 import React from "react";
+import "./button.css";
 
-function Button(props) {
+const Button = (props) => {
   return (
-    <button className="btn" onClick={this.props.handleClick}>
-      {this.props.btnName}
-    </button>
+    <div role={"button"} className="btn" onClick={props.handleClick}>
+      {props.name}
+    </div>
   );
-}
+};
 
 export default Button;

@@ -1,0 +1,12 @@
+.btn {
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem 1.5rem;
+  font-size: 1.2rem;
+  width: 10%;
+  font-weight: 500;
+  color: #000;
+  background: #6495ed;
+  border-radius: 10px;
+  cursor: pointer;
+}
