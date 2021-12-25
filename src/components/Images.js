@@ -1,4 +1,4 @@
-const images = [
+export const images = [
   {
     url: "https://s1.gaming-cdn.com/images/products/9843/orig/call-of-duty-vanguard-ultimate-edition-xbox-one-ultimate-edition-xbox-one-game-microsoft-store-europe-cover.jpg",
     name: "Call of Duty: Vanguard",
@@ -36,5 +36,20 @@ const images = [
     name: "Assassin's Creed Valhalla",
   },
 ];
-
-export default images;
+export const otherArr = [
+  {
+    picture:
+      "https://www.nicepng.com/png/detail/32-324680_like-emoji-smiley-face-thumbs-up.png",
+  },
+  {
+    picture:
+      "https://www.pngitem.com/pimgs/m/82-829158_two-thumbs-down-emoji-hd-png-download.png",
+  },
+  {
+    picture:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSM7eQ3TMiva44wyHk7nehVyEzAHHvmdynNZw&usqp=CAU",
+  },
+  {
+    picture: "https://images.emojiterra.com/google/android-pie/512px/1f44e.png",
+  },
+];

@@ -10,3 +10,8 @@
   border-radius: 10px;
   cursor: pointer;
 }
+
+btn-img {
+  width: 100px;
+  height: 100px;
+}
