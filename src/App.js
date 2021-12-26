@@ -57,16 +57,18 @@ class App extends React.Component {
           imgUrl={this.state.imgAndTitle[0]}
           text={this.state.imgAndTitle[1]}
         />
-        <Button
-          name="Like"
-          handleClick={this.handleLikesClick}
-          iconURL={otherArr[2].picture}
-        />
-        <Button
-          name="Dislike"
-          handleClick={this.handleDisLikesClick}
-          iconURL={otherArr[3].picture}
-        />
+        <div className="button-container">
+          <Button
+            name="Like"
+            handleClick={this.handleLikesClick}
+            iconURL={otherArr[2].picture}
+          />
+          <Button
+            name="Dislike"
+            handleClick={this.handleDisLikesClick}
+            iconURL={otherArr[3].picture}
+          />
+        </div>
       </div>
     );
   }

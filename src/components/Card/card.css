@@ -1,0 +1,11 @@
+.card {
+  border: 1px solid black;
+  height: 700px;
+  text-align: center;
+  color: rgb(78, 76, 76);
+  font-weight: bolder;
+}
+
+.card-img {
+  height: 650px;
+}

@@ -4,7 +4,7 @@ import "./counter.css";
 function Counter(props) {
   return (
     <span className={`counter  ${props.givenClassName}`}>
-      <img src={props.imgURL} alt="emoji" />
+      <img src={props.imgURL} alt="emoji" className="counter-img" />
       {props.value}
     </span>
   );
